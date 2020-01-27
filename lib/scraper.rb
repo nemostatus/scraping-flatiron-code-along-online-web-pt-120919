@@ -22,7 +22,7 @@ class Scraper
   end 
   def get_courses
     self.get_page.css(".post")
-    binding.pry
+    
   end 
   def make_courses
     self.get_courses.each do |post|
